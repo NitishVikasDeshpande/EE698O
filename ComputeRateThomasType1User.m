@@ -1,4 +1,4 @@
-function [rate] = ComputeRateThomasType1user(P,Lambda,m,sigma)
+function [rate] = ComputeRateThomasType1User(P,Lambda,m,sigma)
 % This function computes average ergodic rate of two tier HetNet described in for Type-1
 % users when Tier 1 is modelled as a Thomas cluster process.
 % Input ---
