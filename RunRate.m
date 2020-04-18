@@ -15,7 +15,7 @@ s_arr = [];
 %    s_arr = [s_arr s];
 %end
 
-s=6000:1000:10000;
+s=10000:1000:20000;
 parfor i=1:length(s)
  x= ComputeRateThomasType1user(P,Lambda,m,sigma,s(i))
  x_arr = [x_arr x];
